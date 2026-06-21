@@ -1,7 +1,7 @@
 const person = {
-    firstName: "Іван",
-    lastName: "Петренко",
-    age: 25
+  firstName: "Іван",
+  lastName: "Петренко",
+  age: 25,
 };
 
 person.email = "ivan.petrenko@gmail.com";

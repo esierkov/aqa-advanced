@@ -1,5 +1,5 @@
 //task 4.1
-console.log('Task 4.1');
+console.log("Task 4.1");
 
 let radius = 5;
 let circleArea = Math.PI * radius * radius;
@@ -9,7 +9,7 @@ console.log("Circle Radius:", radius);
 console.log("Area of the circle:", roundedCircleArea);
 
 //task 4.2
-console.log('\nTask 4.2');
+console.log("\nTask 4.2");
 
 let rectangleLength = 5.2;
 let rectangleWidth = 3.4;
@@ -18,10 +18,10 @@ let roundedRectangleArea = Number(rectangleArea.toFixed(2));
 
 console.log("Rectangle Length:", rectangleLength);
 console.log("Rectangle Width:", rectangleWidth);
-console.log('Rectangle Area:', roundedRectangleArea);
+console.log("Rectangle Area:", roundedRectangleArea);
 
 //task 4.3
-console.log('\nTask 4.3');
+console.log("\nTask 4.3");
 
 let cylinderRadius = 5;
 let cylinderHeight = 10;
