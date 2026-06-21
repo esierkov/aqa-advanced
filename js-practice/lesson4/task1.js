@@ -2,7 +2,7 @@ let userName = "Yevhen";
 let age = 26;
 let isHillelStudent = true;
 let emptyValue = null;
-let undefinedVariable;
+let undefinedVariable = undefined;
 
 console.log("String:", userName);
 console.log("Number:", age);
