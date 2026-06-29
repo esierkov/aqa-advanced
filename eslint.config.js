@@ -16,6 +16,17 @@ export default [
   js.configs.recommended,
 
   {
+    files: ["tests/**/*.js"],
+
+    languageOptions: {
+      globals: {
+        describe: "readonly",
+        test: "readonly",
+        expect: "readonly",
+        require: "readonly",
+      },
+    },
+
     plugins: {
       prettier: prettierPlugin,
     },
